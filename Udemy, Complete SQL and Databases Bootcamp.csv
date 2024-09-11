@@ -1,0 +1,45 @@
+﻿Front;Back;Tags
+What is SQL?;SQL stands for Structured Query Language. It is used to communicate with a database and is the standard language for relational database management systems.;Programming Databases Udemy_Databases_Course
+What is a PRIMARY KEY?;A PRIMARY KEY is a field (or combination of fields) in a table that uniquely identifies each record in that table. It must contain unique values and cannot contain NULL values.;Programming Databases Udemy_Databases_Course
+What is a FOREIGN KEY?;A FOREIGN KEY is a field (or combination of fields) in one table that refers to the PRIMARY KEY in another table. It establishes a relationship between the two tables.;Programming Databases Udemy_Databases_Course
+What is a JOIN in SQL?;A JOIN is a SQL operation used to combine rows from two or more tables based on a related column between them.;Programming Databases Udemy_Databases_Course
+What are the types of JOINs in SQL?;"The common types of JOINs are:
+INNER JOIN,
+LEFT JOIN (or LEFT OUTER JOIN),
+RIGHT JOIN (or RIGHT OUTER JOIN),
+FULL JOIN (or FULL OUTER JOIN),
+CROSS JOIN";Programming Databases Udemy_Databases_Course
+What is an INDEX in SQL?;An INDEX is a database object used to improve the speed of data retrieval operations on a table. It can be created on one or more columns of a table.;Programming Databases Udemy_Databases_Course
+What is an SQL Injection?;An SQL Injection is a code injection technique that might destroy your database. It is one of the most common web hacking techniques.;Programming Databases Udemy_Databases_Course
+What is the difference between DELETE and TRUNCATE in SQL?;DELETE removes rows one at a time and records an entry in the transaction log for each deleted row, whereas TRUNCATE removes all rows in a table by deallocating the data pages and does not log individual row deletions.;Programming Databases Udemy_Databases_Course
+What is the GROUP BY clause used for in SQL?;The GROUP BY clause is used in conjunction with aggregate functions to group the result-set by one or more columns.;Programming Databases Udemy_Databases_Course
+What is normalization in SQL?;Normalization is the process of organizing data in a database to avoid redundancy and improve data integrity. It usually involves dividing a database into two or more tables and defining relationships between them.;Programming Databases Udemy_Databases_Course
+What is denormalization in SQL?;Denormalization is the process of attempting to optimize the read performance of a database by adding redundant data or grouping data. It is the opposite of normalization.;Programming Databases Udemy_Databases_Course
+What is a UNION in SQL?;UNION is used to combine the result sets of two or more SELECT statements. It removes duplicate records between the different SELECT statements.;Programming Databases Udemy_Databases_Course
+What is the difference between UNION and UNION ALL?;UNION removes duplicate records, while UNION ALL includes all duplicates in the result set.;Programming Databases Udemy_Databases_Course
+What is a view in SQL?;A view is a virtual table that contains a subset of data from one or more tables. It does not store data itself but provides a way to view and query data.;Programming Databases Udemy_Databases_Course
+What is an alias in SQL?;An alias is a temporary name given to a table or column for the purpose of a particular SQL query.;Programming Databases Udemy_Databases_Course
+What is a subquery in SQL?;A subquery is a query within another query. The result of the subquery is used by the main query.;Programming Databases Udemy_Databases_Course
+What is a correlated subquery in SQL?;A correlated subquery is a subquery that uses values from the outer query. It is executed repeatedly for each row in the outer query.;Programming Databases Udemy_Databases_Course
+What is a stored procedure in SQL?;A stored procedure is a set of SQL statements that can be stored and executed on the database server. It can accept parameters and return results.;Programming Databases Udemy_Databases_Course
+What is a trigger in SQL?;A trigger is a set of SQL statements that are automatically executed in response to certain events on a particular table or view.;Programming Databases Udemy_Databases_Course
+What is the difference between HAVING and WHERE in SQL?;WHERE is used to filter rows before grouping, while HAVING is used to filter groups after the GROUP BY clause.;Programming Databases Udemy_Databases_Course
+What is a cursor in SQL?;A cursor is a database object used to retrieve, manipulate, and navigate through a result set row by row.;Programming Databases Udemy_Databases_Course
+What is the difference between INNER JOIN and OUTER JOIN?;INNER JOIN returns only the rows that have matching values in both tables, while OUTER JOIN returns all rows from one table and the matching rows from the other table.;Programming Databases Udemy_Databases_Course
+What is a constraint in SQL?;A constraint is a rule applied to a column or a set of columns that restricts the types of data that can be inserted into the table.;Programming Databases Udemy_Databases_Course
+What is a unique constraint in SQL?;A unique constraint ensures that all values in a column are unique. It allows NULL values but ensures that no two non-NULL values are the same.;Programming Databases Udemy_Databases_Course
+What is the difference between a clustered index and a non-clustered index?;A clustered index determines the physical order of data in a table and can only be one per table. A non-clustered index, on the other hand, is an index that does not alter the physical order of the table and can be many per table.;Programming Databases Udemy_Databases_Course
+What is a self join in SQL?;A self join is a regular join but the table is joined with itself.;Programming Databases Udemy_Databases_Course
+What is a composite key in SQL?;A composite key is a primary key that consists of more than one column.;Programming Databases Udemy_Databases_Course
+What is a DDL (Data Definition Language)?;DDL is a subset of SQL commands used to define or modify the structure of database objects like tables, indexes, and views. Examples include CREATE, ALTER, and DROP.;Programming Databases Udemy_Databases_Course
+What is a DML (Data Manipulation Language)?;DML is a subset of SQL commands used to manipulate data in the database. Examples include SELECT, INSERT, UPDATE, and DELETE.;Programming Databases Udemy_Databases_Course
+What is a DCL (Data Control Language)?;DCL is a subset of SQL commands used to control access to data in the database. Examples include GRANT and REVOKE.;Programming Databases Udemy_Databases_Course
+What is a TCL (Transaction Control Language)?;TCL is a subset of SQL commands used to manage transactions in the database. Examples include COMMIT, ROLLBACK, and SAVEPOINT.;Programming Databases Udemy_Databases_Course
+What is a transaction in SQL?;A transaction is a sequence of one or more SQL operations treated as a single unit of work. It ensures that all operations are completed successfully before saving the results to the database.;Programming Databases Udemy_Databases_Course
+What are the ACID properties in SQL?;ACID stands for Atomicity, Consistency, Isolation, Durability. These are properties that guarantee that database transactions are processed reliably.;Programming Databases Udemy_Databases_Course
+What is a deadlock in SQL?;A deadlock occurs when two or more transactions are waiting for each other to release locks, leading to a situation where none of the transactions can proceed.;Programming Databases Udemy_Databases_Course
+What is a rollback in SQL?;Rollback is the process of undoing transactions that have not been saved to the database. It restores the database to its previous state.;Programming Databases Udemy_Databases_Course
+What is a savepoint in SQL?;A savepoint is a point within a transaction that allows partial rollback. It enables a transaction to be rolled back to a specific point without affecting the rest of the transaction.;Programming Databases Udemy_Databases_Course
+What is a commit in SQL?;Committing is the process of saving all the changes made during a transaction to the database.;Programming Databases Udemy_Databases_Course
+What is a scalar function in SQL?;A scalar function is a function that operates on a single value and returns a single value.;Programming Databases Udemy_Databases_Course
+What is a stored function in SQL?;A stored function is similar to a stored procedure but returns a single value. It can be used in SQL statements like a regular function.;Programming Databases Udemy_Databases_Course
